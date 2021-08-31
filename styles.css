@@ -270,6 +270,9 @@ h6{
     list-style-type: none;
     background-color: #cfcdcc;
     
+    border-radius: 20px;
+
+    
 }
 .mobile-dropdown li a {
     font-weight: 400;
@@ -330,11 +333,6 @@ h6{
             list-style-type: none;
             line-height: 2;
         }
-
-
-
-
-
        .content h1{
            font-size: 40px;
            margin: 10px;
@@ -367,24 +365,88 @@ h6{
        .container-2 img{
            position: relative;
            transform: scale(0.6);
+           left: 400px;
+           top: 100px;   
+       }
+       .img-fix{
+           position: relative;
+           top: -200px;
+           left: -200px;
        }
        .container-2{
         position: relative;
-        top: -700px;
+        top: -600px;
         min-height: 1000px;
-        max-width: 100%;
-        
+        margin: 0px;
+       }
+       
+       .mid-box {
+           position: relative;
+           left: -1090px;
+           top: 200px;
+       }
+       .h2-fix{
+           position: relative;
+           left: -1150px;
+           top: 150px;
        }
        .container-2 h2{
            position: relative;
-           left: -50px;
-           
-           color: black;
-        
-           z-index: 1;
+           text-align: right;
+           color: black;  
        }
-       
-}
+       .container-3{
+           max-height: 700px;
+           margin: 0px;
+           position: relative;
+           top: -800px;
+           left: -50px;
+       }
+       .container-3 img{
+           transform: scale(0.6);
+           position: relative;
+           top:0;
+           left: 100px;
+       }
+       .container-3 h3{
+           position: relative;
+       }
+       .temp-box {
+           position: relative;
+           left: -940px;
+           top: 600px;
+       }
+          
+
+       .footer-box{
+           position: relative;
+           top: 100px;
+           min-height: 1000px;
+           overflow-y: hidden;
+       }
+       .col1{
+           position: relative;
+           left: -100px;
+       }
+       .col2{
+           position: relative;
+           left: -520px;
+           top: 70px;
+       }
+       .col3{
+           position: relative;
+           left: -965px;
+           top: 420px;
+       }  
+       .col4{
+           position: relative;
+           left: -1375px;
+           top: 770px;
+       }
+       .col li{
+           font-family: 'unbuntu',sans-serif;
+       }
+    }
 
 
 
